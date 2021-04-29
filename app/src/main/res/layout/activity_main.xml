@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="top"
+    tools:context=".MainActivity">
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalscroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light">
+
+        <LinearLayout
+            android:id="@+id/llParent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="30"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:background="@color/design_default_color_on_primary"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+</LinearLayout>
